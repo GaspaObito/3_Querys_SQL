@@ -1,0 +1,1 @@
+sqlcmd -S COLNOTEXNT18 -i D:\Informacion\3_Querys_SQL\QuerysAutoRun\2_UPD_Cambio_FechaNT.sql -o D:\Informacion\3_Querys_SQL\QuerysAutoRun\2_RP_Cambio_FechaNT.txt

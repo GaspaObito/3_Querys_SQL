@@ -1,0 +1,1 @@
+sqlcmd -S COLNOTEXNT18 -i D:\Informacion\3_Querys_SQL\QuerysAutoRun\1_UPD__PD_Automaticos.sql -o D:\Informacion\3_Querys_SQL\QuerysAutoRun\1_RP__PD_Automaticos.txt

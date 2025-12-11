@@ -1,0 +1,231 @@
+Se cambió el contexto de la base de datos a 'COLNOTEXSA'.
+
+(62958 filas afectadas)
+Ejecucion realizada en: 2025-12-11 07:00:04
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(0 filas afectadas)
+
+(528 filas afectadas)
+Ejecucion realizada en: 2025-12-11 07:00:07
