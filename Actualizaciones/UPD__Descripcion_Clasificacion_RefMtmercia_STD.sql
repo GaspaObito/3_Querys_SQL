@@ -1,11 +1,9 @@
 USE SUPERTODO
-select m.codigo,m.DESCRIPCIO,a.DESCRIPCIO,m.CODLINEA,a.CODLINEA,m.CODSBLIN,a.CODSBLIN,
-CASE 
-        WHEN m.DESCRIPCIO = a.DESCRIPCIO THEN 1
-        ELSE 0
-    END AS SonIguales
+select m.codigo,
+case when m.CODBARRAS=a.CODBARRAS then 'TRUE' else 'FALSE' end as SonIgualesCod,m.DESCRIPCIO,a.DESCRIPCIO AS NUEVA_DESCRIP,m.CODLINEA,a.CODLINEA AS NUEVO_CODLINEA,m.CODSBLIN,a.CODSBLIN AS NUEVO_CODSBLIN,
+CASE WHEN m.DESCRIPCIO = a.DESCRIPCIO THEN 'TRUE' ELSE 'FALSE' END AS SonIguales
 From MtMercia m
-Inner Join aaamtmercia$ a ON a.CODIGO=m.CODIGO
+Inner Join Hoja1$ a ON a.CODIGO=m.CODIGO
 
 /*update m
 set 
@@ -13,4 +11,4 @@ set
 	m.CODLINEA = a.CODLINEA,
 	m.CODSBLIN = a.CODSBLIN
 From MtMercia m
-Inner Join AAAMtmercia$ a ON a.CODIGO=m.CODIGO*/
+Inner Join Hoja1$ a ON a.CODIGO=m.CODIGO*/
