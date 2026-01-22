@@ -1,4 +1,4 @@
 Se cambió el contexto de la base de datos a 'COLNOTEXSA'.
 
 (0 filas afectadas)
-Ejecucion realizada en: 2026-01-13 06:30:01
+Ejecucion realizada en: 2026-01-21 08:08:22
