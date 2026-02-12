@@ -1,9 +1,9 @@
 USE SUPERTODO
 --MTMERCIA
-select codigo,codbarras,descripcio from MtMercia
+select codigo,codbarras,descripcio,DETALLE from MtMercia
 where 
-DESCRIPCIO like'%BIZCOCHO%'
-AND DESCRIPCIO like'%VAINILLA%'
+DESCRIPCIO like'%GAROFALO%'
+AND DESCRIPCIO like'%FUSILLI%'
 --A ULTIMA
 --select codigo,codbarras,descripcio from MtMercia WHERE CODIGO like'A-%' ORDER BY CODIGO DESC
 

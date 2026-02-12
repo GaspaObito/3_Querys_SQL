@@ -1,8 +1,8 @@
 /*
 SUBIR POR METODO BULK INSERT
 de donde va a tomar la informacion
-FROM '\\192.168.0.16\Informes Ofimatica\RANDY\Ventas Subidas de Randy a Ofimatica\2026-01 Enero\2026-01-20\AAATRADE.csv'
 FROM 'D:\Informacion\Informes Ofimatica\RANDY\Ventas Subidas de Randy a Ofimatica\2026-01 Enero\2026-01-16\AAAMVTRADE.csv'
+FROM 'D:\bulk insert\\AAAMVTRADE.csv'
 cuando se vaya a usar texto en español se debe de especificar el formato, y FIELDQUOTE, para salto de linea LF 
 */
 USE SUPERTODO

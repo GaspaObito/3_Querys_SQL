@@ -23,21 +23,21 @@ $destinosSTD = @(
     "\\26.189.121.219\Informes Ofimatica\2025",# SAMIRA GONZALEZ
     "\\192.168.19.22\Informes Ofimatica\SUPERTODO\2025",# ANGIE HIGUERA
     "\\26.223.56.166\Informes Ofimatica\2025\SUPERTODO"# CRISTINA CASTELLANOS
-    "\\26.13.47.47\Informes Ofimatica\BESTPRICE"# PAULA RICARDO
-    
-   
+    "\\26.13.47.47\Informes Ofimatica\SUPERTODO"# PAULA RICARDO
+    "\\COLNOTEXNT7\Informes Ofimatica\Supertodo\Informes Ofimatica Lea Niddam\2025" # LEA NIDDAN
 )
 
 $destinosLPZ = @(
     "\\26.146.195.209\informes ofimatica\BESTPRICE\2025",# LIZETTE FLOREZ
     "\\26.75.138.26\informes ofimatica\SUPERTODO",# ANGIE QUINTERO
     "\\26.11.60.111\Informes Ofimatica\2025\BESTPRICE",# CAMILA GUAUTA
+    "\\26.60.74.76\Informes Ofimatica\BESTPRICE",#ESTEFANY ESCOBAR
     "\\26.55.88.252\Informes Ofimatica\2025",# PAULA VARGAS
     "\\26.189.121.219\Informes Ofimatica\2025",# SAMIRA GONZALEZ
     "\\192.168.19.22\Informes Ofimatica\BESTPRICE\2025",# ANGIE HIGUERA
     "\\26.223.56.166\Informes Ofimatica\2025\BESTPRICE",# CRISTINA CASTELLANOS
-    "\\26.13.47.47\Informes Ofimatica\SUPERTODO"# PAULA RICARDO
-    
+    "\\26.13.47.47\Informes Ofimatica\BESTPRICE"# PAULA RICARDO
+    "\\COLNOTEXNT7\Informes Ofimatica\Supertodo\Informes Ofimatica Lea Niddam\2025" # LEA NIDDAN
 )
 foreach ($destino in $destinosSTD) {
     if (Test-Path $destino) {
@@ -54,3 +54,5 @@ foreach ($destino in $destinosLPZ) {
         Write-Host "No accesible: $destino"
     }
 }
+
+Read-Host -Prompt "Press Enter to continue"
