@@ -1,3 +1,40 @@
+USE Supertodobackup
+SELECT name
+FROM sys.triggers;
+
+CREATE TRIGGER Tr_Traslada_Ref_STD_LPZ
+ON dbo.MtMercia
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Bestprice_Backup.dbo.MtMercia (col1, col2, col3, CreatedAt)
+    SELECT col1, col2, col3, CreatedAt
+    FROM inserted
+    WHERE DATEDIFF(HOUR, CreatedAt, GETDATE()) <= 24;
+END;
+
+CREATE TRIGGER Tr_Traslada_Ref_STD_LPZ
+ON SupertodoBackup.dbo.MtMercia
+AFTER INSERT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    INSERT INTO Bestprice_Backup.dbo.MtMercia (
+        Columna1,
+        Columna2,
+        Columna3
+    )
+    SELECT 
+        Columna1,
+        Columna2,
+        Columna3
+    FROM inserted;
+END;
+
+
 CREATE TRIGGER Tr_Traslada_Ref_STD_LPZ
 ON Mtmercia
 AFTER INSERT
@@ -7,7 +44,7 @@ BEGIN
    -- Insert into TargetTable only if CreatedAt is within the last 24 hours
    INSERT INTO Bestprice_Backup.dbo.MtMercia
    SELECT *
-   FROM Supertodo_Backup.dbo.MtMercia
+   FROM SupertodoBackup.dbo.MtMercia
    WHERE DATEDIFF(HOUR, CreatedAt, GETDATE()) <= 24;
 END;
 

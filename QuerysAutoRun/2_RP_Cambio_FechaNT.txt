@@ -1,7 +1,7 @@
 Se cambió el contexto de la base de datos a 'COLNOTEXSA'.
 
-(64931 filas afectadas)
-Ejecucion realizada en: 2026-02-27 07:00:04
+(65408 filas afectadas)
+Ejecucion realizada en: 2026-03-20 07:00:06
 
 (0 filas afectadas)
 
@@ -228,4 +228,4 @@ Ejecucion realizada en: 2026-02-27 07:00:04
 (0 filas afectadas)
 
 (528 filas afectadas)
-Ejecucion realizada en: 2026-02-27 07:00:30
+Ejecucion realizada en: 2026-03-20 07:00:31

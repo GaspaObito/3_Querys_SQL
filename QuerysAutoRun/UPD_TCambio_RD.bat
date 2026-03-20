@@ -1,0 +1,1 @@
+"C:\Users\Josea\AppData\Local\Programs\Python\Python313\python.exe" D:\Informacion\3_Querys_SQL\QuerysAutoRun\tasa.py >> C:\logs\output.txt 2>&1

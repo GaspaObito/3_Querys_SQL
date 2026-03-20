@@ -7,14 +7,14 @@ cuando se vaya a usar texto en español se debe de especificar el formato, y FIEL
 */
 USE SUPERTODO
 BULK INSERT trade
-FROM 'D:\bulk insert\AAATRADE3.csv'
+FROM 'D:\bulk insert\AAATRADE.csv'
 WITH (
    FIELDTERMINATOR = ',', -- Delimitador de campos
    ROWTERMINATOR = '\n', -- Delimitador de filas
    FIRSTROW = 2 -- Opcional: Saltar encabezados
 );
 BULK INSERT mvtrade
-FROM 'D:\bulk insert\AAAMVTRADE3.csv'
+FROM 'D:\bulk insert\AAAMVTRADE.csv'
 WITH (
    FORMAT = 'CSV',
    FIELDTERMINATOR = ',', -- Delimitador de campos
@@ -24,7 +24,7 @@ WITH (
    CODEPAGE = '65001' -- UTF-8
 );
 BULK INSERT mvcuadre
-FROM 'D:\bulk insert\AAAMVCUADRE3.csv'
+FROM 'D:\bulk insert\AAAMVCUADRE.csv'
 WITH (
    FIELDTERMINATOR = ',', -- Delimitador de campos
    ROWTERMINATOR = '\n', -- Delimitador de filas
@@ -32,7 +32,7 @@ WITH (
    FIRSTROW = 2 -- Opcional: Saltar encabezados
 );
 BULK INSERT mvcuadre
-FROM 'D:\bulk insert\AAAMVDEVUELTAS3.csv'
+FROM 'D:\bulk insert\AAAMVDEVUELTAS.csv'
 WITH (
    FIELDTERMINATOR = ',', -- Delimitador de campos
    ROWTERMINATOR = '\n', -- Delimitador de filas
