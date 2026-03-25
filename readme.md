@@ -15,3 +15,5 @@ VAL__ → Validación de datos
 TMP__ → Temporal o en desarrollo
 
 DBG__ → Para debugging o pruebas
+
+TRG__ → Trigger para BD

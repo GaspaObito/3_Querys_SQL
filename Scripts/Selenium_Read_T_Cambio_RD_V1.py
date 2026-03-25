@@ -30,8 +30,8 @@ import pyodbc
 
 conn = pyodbc.connect(
     "DRIVER={SQL Server};"
-    "SERVER=ANA_BASEDTJUNIO\\SQLEXPRESS01;"
-    "DATABASE=SupertodoBackup;"
+    "SERVER=COLNOTEXNT18;"
+    "DATABASE=SUPERTODO;"
     "Trusted_Connection=yes;"
 )
 cursor = conn.cursor()
@@ -45,8 +45,8 @@ cursor.execute(
 exists = cursor.fetchone()[0]
 if exists == 0:
     cursor.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, DIA) VALUES (?, ?, DATENAME(WEEKDAY, GETDATE()))",
-        fecha, valor
+        "INSERT INTO MTCAMBIO (FECHA, VALOR,TASAVEN, DIA) VALUES (?, ?,?, DATENAME(WEEKDAY, GETDATE()))",
+        fecha, valor, valor
     )
     conn.commit()
     print("Insertado")

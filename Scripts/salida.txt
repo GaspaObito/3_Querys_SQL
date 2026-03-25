@@ -1,9 +1,0 @@
-C:\Users\Josea\AppData\Local\Programs\Python\Python313\python.exe: can't open file 'D:\\Informacion\\3_Querys_SQL\\Scripts\\Selenium': [Errno 2] No such file or directory
-20/03/2026 - RD$ 58.8415
-Fecha: 20/03/2026
-Valor: 58.8415
-Ya existe ese registro
-20/03/2026 - RD$ 58.8415
-Fecha: 20/03/2026
-Valor: 58.8415
-Ya existe ese registro
