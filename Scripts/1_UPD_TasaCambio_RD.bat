@@ -1,0 +1,1 @@
+"C:\Users\Josea\AppData\Local\Programs\Python\Python313\python.exe" D:\Informacion\3_Querys_SQL\Scripts\1_Selenium_Read_T_Cambio_RD.py >> D:\Informacion\3_Querys_SQL\Scripts\1_salida_RD.txt 2>&1

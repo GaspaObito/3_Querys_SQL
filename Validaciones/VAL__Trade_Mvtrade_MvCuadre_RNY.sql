@@ -9,28 +9,28 @@ SELECT
 FROM 
 	Montos_Ticket  
 WHERE 
-	FECHA BETWEEN '01-06-2025' AND '30-12-2025' AND status IN ('FAC') AND CAJA='2' AND RNC IS NOT NULL
+	FECHA BETWEEN '01-06-2025' AND '30-12-2026' AND status IN ('FAC') AND TICKET='95044'
 ORDER BY TICKET DESC
 select * from Montos_Ticket ORDER BY TICKET ASC
 
 --CONSULTA DE TICKETS DE CAJA RNY MVTRADE ===========================================
 SELECT 
-	ticket AS TICKET,fecha AS FECHA,producto AS PRODUCTO,descripcion AS DESCRIPCION,
+	ticket AS TICKET,caja,fecha AS FECHA,producto AS PRODUCTO,descripcion AS DESCRIPCION,
 	cantidad AS CANTIDAD,precio AS PRECIO,itbis AS ITBIS,total_itbis AS TOTAL_ITBIS,costo AS COSTO,
 	Descuento AS DESCUENTO,cantidad*precio AS TOTAL 
 FROM ticket
 WHERE 
-	FECHA BETWEEN '01-06-2025' AND '30-6-2025'
+	FECHA BETWEEN '01-06-2025' AND '30-6-2026' AND TICKET='95044'
 ORDER BY TICKET DESC
 select * from Ticket
 --CONSULTA DE TICKETS DE CAJA RNY MVCUADRE ===========================================
 SELECT 
-	ticket AS TICKET,fecha AS FECHA,forma AS MTPAGO,pagado AS PAGADO,devuelta AS DEVUELTA,
+	ticket AS TICKET,CAJA,fecha AS FECHA,forma AS MTPAGO,pagado AS PAGADO,devuelta AS DEVUELTA,
 	pagado-devuelta AS RECIBIDO 
 FROM 
 	Formas_Pago_Ticket 
 WHERE 
-	FECHA BETWEEN '01-06-2025' AND '30-6-2025'
+	FECHA BETWEEN '01-06-2025' AND '30-6-2026' AND TICKET='95044'
 ORDER BY ticket DESC
 select * from Formas_Pago_Ticket
 

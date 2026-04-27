@@ -1,0 +1,32 @@
+22/04/2026 - RD$ 59.4138
+Fecha: 22/04/2026
+Valor: 59.4138
+Ya existe ese registro
+22/04/2026 - RD$ 59.4138
+Fecha: 22/04/2026
+Valor: 59.4138
+Ya existe ese registro
+22/04/2026 - RD$ 59.4138
+Fecha: 22/04/2026
+Valor: 59.4138
+Ya existe ese registro
+23/04/2026 - RD$ 59.3761
+Fecha: 23/04/2026
+Valor: 59.3761
+Insertado en ambas BD
+24/04/2026 - RD$ 59.2362
+Fecha: 24/04/2026
+Valor: 59.2362
+Insertado en ambas BD
+24/04/2026 - RD$ 59.2362
+Fecha: 24/04/2026
+Valor: 59.2362
+Ya existe ese registro
+24/04/2026 - RD$ 59.2362
+Fecha: 24/04/2026
+Valor: 59.2362
+Ya existe ese registro
+27/04/2026 - RD$ 58.9769
+Fecha: 27/04/2026
+Valor: 58.9769
+Insertado en ambas BD

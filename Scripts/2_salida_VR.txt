@@ -1,0 +1,18 @@
+Fecha: 22/04/2026
+Valor: 3576.05
+Ya existe ese registro
+Fecha: 23/04/2026
+Valor: 3568.88
+Insertado en BD Verona
+Fecha: 24/04/2026
+Valor: 3560.62
+Insertado en BD Verona
+Fecha: 27/04/2026
+Valor: 3551.17
+Insertado en BD Verona
+Fecha: 27/04/2026
+Valor: 3551.17
+Ya existe ese registro
+Fecha: 27/04/2026
+Valor: 3551.17
+Ya existe ese registro
