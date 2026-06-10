@@ -47,8 +47,7 @@ cursor2 = conn2.cursor()
 
 # Validar en BD principal
 cursor1.execute(
-    "SELECT COUNT(*) FROM MTCAMBIO WHERE FECHA = ?",
-    fecha
+    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)",
 )
 
 exists = cursor1.fetchone()[0]
@@ -56,14 +55,14 @@ exists = cursor1.fetchone()[0]
 if exists == 0:
     # Insert en BD1
     cursor1.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA) VALUES (?, ?, ?, DATENAME(WEEKDAY, GETDATE()))",
-        fecha, valor, valor
+        "INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA) VALUES (?, ?, ?, DATENAME(WEEKDAY, ?))",
+        fecha, valor, valor , fecha
     )
 
     # Insert en BD2
     cursor2.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA) VALUES (?, ?, ?, DATENAME(WEEKDAY, GETDATE()))",
-        fecha, valor, valor
+        "INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA) VALUES (?, ?, ?, DATENAME(WEEKDAY, ?))",
+        fecha, valor, valor , fecha
     )
 
     conn1.commit()

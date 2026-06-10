@@ -46,31 +46,50 @@ conn1 = pyodbc.connect(
     "Trusted_Connection=yes;"
 )
 
+conn2 = pyodbc.connect(
+    "DRIVER={SQL Server};"
+    "SERVER=COLNOTEXNT18;"
+    "DATABASE=COLNOTEXSA;"
+    "Trusted_Connection=yes;"
+)
+
 cursor1 = conn1.cursor()
+
+cursor2 = conn2.cursor()
 
 # Validar en BD principal
 cursor1.execute(
-    "SELECT COUNT(*) FROM MTCAMBIO WHERE FECHA = ?",
-    textoFECHA
+    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)",
 )
 
-exists = cursor1.fetchone()[0]
+exists1 = cursor1.fetchone()[0]
 
-if exists == 0:
-    # Insert en BD1
+cursor2.execute(
+    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)",
+)
+
+exists2 = cursor2.fetchone()[0]
+
+if exists1 == 0 and exists2 == 0:
     cursor1.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, DIA) VALUES (?, ?, DATENAME(WEEKDAY, GETDATE()))",
-        textoFECHA, textoTRM
+        "INSERT INTO MTCAMBIO (FECHA, VALOR, DIA) VALUES (?, ?, DATENAME(WEEKDAY, ?))",
+        textoFECHA, textoTRM, textoFECHA
     )
-   
-    conn1.commit()
 
-    print("Insertado en BD Verona")
+    cursor2.execute(
+        "INSERT INTO MTCAMBIO (FECHA, VALOR, DIA) VALUES (?, ?, DATENAME(WEEKDAY, ?))",
+        textoFECHA, textoTRM, textoFECHA
+    )
+
+    conn1.commit()
+    conn2.commit()
+
+    print("Insertado en BD Verona y Colnotexsa")
 else:
     print("Ya existe ese registro")
 
-conn1.commit()
 
 conn1.close()
+conn2.close()
 
 driver.quit()

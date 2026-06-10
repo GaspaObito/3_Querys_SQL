@@ -1,0 +1,38 @@
+USE BESTPRICE
+--ACTUALIZA DATOS
+/*
+UPDATE a
+SET 
+    a.BANCO = b.BANCO,
+    a.MEDIOPAG = b.MEDIOPAG,
+    a.CODBANCO = b.CODBANCO
+FROM MvCuadre a
+CROSS APPLY (
+    SELECT TOP 1 
+        b.BANCO,
+        b.MEDIOPAG,
+        b.CODBANCO
+    FROM MvCuadre b
+    WHERE b.TIPODCTO = a.TIPODCTO
+      AND b.MEDIOPAG = '01'
+    ORDER BY b.FECING DESC
+) b
+WHERE a.DCTO = '91773'
+  AND a.TIPODCTO = 'B2';
+  */
+
+--VERIFICA DATOS
+SELECT a.BANCO,a.CODBANCO,a.DCTO,a.MEDIOPAG,a.valor,
+b.BANCO,b.CODBANCO,b.DCTO,b.MEDIOPAG
+FROM MvCuadre a
+CROSS APPLY (
+    SELECT TOP 1 *
+    FROM MvCuadre b
+    WHERE b.TIPODCTO = a.TIPODCTO
+      AND b.MEDIOPAG = '01'
+    ORDER BY b.FECING DESC
+) b
+WHERE a.DCTO = '91773'
+  AND a.TIPODCTO = 'B2';
+
+select * from MtMedPag

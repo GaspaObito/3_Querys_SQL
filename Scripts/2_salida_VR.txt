@@ -16,3 +16,144 @@ Ya existe ese registro
 Fecha: 27/04/2026
 Valor: 3551.17
 Ya existe ese registro
+Fecha: 28/04/2026
+Valor: 3593.17
+Insertado en BD Verona
+Fecha: 29/04/2026
+Valor: 3633.76
+Ya existe ese registro
+Fecha: 30/04/2026
+Valor: 3621.86
+Insertado en BD Verona
+Fecha: 04/05/2026
+Valor: 3637.51
+Insertado en BD Verona
+Fecha: 04/05/2026
+Valor: 3637.51
+Ya existe ese registro
+Fecha: 04/05/2026
+Valor: 3637.51
+Ya existe ese registro
+Fecha: 04/05/2026
+Valor: 3637.51
+Ya existe ese registro
+Fecha: 05/05/2026
+Valor: 3707.58
+Insertado en BD Verona
+Fecha: 06/05/2026
+Valor: 3723.33
+Insertado en BD Verona
+Fecha: 07/05/2026
+Valor: 3706.44
+Insertado en BD Verona
+Fecha: 08/05/2026
+Valor: 3729.27
+Insertado en BD Verona
+Fecha: 11/05/2026
+Valor: 3747.10
+Insertado en BD Verona
+Fecha: 11/05/2026
+Valor: 3747.10
+Ya existe ese registro
+Fecha: 12/05/2026
+Valor: 3759.00
+Insertado en BD Verona
+Fecha: 13/05/2026
+Valor: 3775.07
+Insertado en BD Verona
+Fecha: 14/05/2026
+Valor: 3794.91
+Insertado en BD Verona
+Fecha: 15/05/2026
+Valor: 3784.70
+Insertado en BD Verona
+Fecha: 19/05/2026
+Valor: 3796.78
+Insertado en BD Verona
+Fecha: 19/05/2026
+Valor: 3796.78
+Ya existe ese registro
+Fecha: 19/05/2026
+Valor: 3796.78
+Ya existe ese registro
+Fecha: 19/05/2026
+Valor: 3796.78
+Ya existe ese registro
+Fecha: 20/05/2026
+Valor: 3796.87
+Insertado en BD Verona y Colnotexsa
+Fecha: 21/05/2026
+Valor: 3730.49
+Insertado en BD Verona y Colnotexsa
+Fecha: 22/05/2026
+Valor: 3701.37
+Insertado en BD Verona y Colnotexsa
+Fecha: 26/05/2026
+Valor: 3667.06
+Insertado en BD Verona y Colnotexsa
+Fecha: 26/05/2026
+Valor: 3667.06
+Ya existe ese registro
+Fecha: 26/05/2026
+Valor: 3667.06
+Ya existe ese registro
+Traceback (most recent call last):
+  File "D:\Informacion\3_Querys_SQL\Scripts\2_Selenium_Read_T_Cambio_VR.py", line 4, in <module>
+    from selenium.webdriver.support.ui import WebDriverWait
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\ui.py", line 18, in <module>
+    from selenium.webdriver.support.select import Select
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\select.py", line 21, in <module>
+    from selenium.webdriver.remote.webelement import WebElement
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1112, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1235, in path_stats
+  File "<frozen importlib._bootstrap_external>", line 152, in _path_stat
+KeyboardInterrupt
+^CFecha: 27/05/2026
+Valor: 3644.47
+Insertado en BD Verona y Colnotexsa
+Fecha: 28/05/2026
+Valor: 3631.57
+Insertado en BD Verona y Colnotexsa
+Fecha: 29/05/2026
+Valor: 3646.58
+Insertado en BD Verona y Colnotexsa
+Fecha: 01/06/2026
+Valor: 3678.15
+Insertado en BD Verona y Colnotexsa
+Fecha: 01/06/2026
+Valor: 3678.15
+Ya existe ese registro
+Fecha: 01/06/2026
+Valor: 3678.15
+Ya existe ese registro
+Fecha: 02/06/2026
+Valor: 3560.24
+Insertado en BD Verona y Colnotexsa
+Fecha: 03/06/2026
+Valor: 3562.00
+Insertado en BD Verona y Colnotexsa
+Fecha: 04/06/2026
+Valor: 3572.85
+Insertado en BD Verona y Colnotexsa
+Fecha: 05/06/2026
+Valor: 3565.32
+Insertado en BD Verona y Colnotexsa
+Fecha: 09/06/2026
+Valor: 3588.09
+Insertado en BD Verona y Colnotexsa
+Fecha: 09/06/2026
+Valor: 3588.09
+Ya existe ese registro
+Fecha: 09/06/2026
+Valor: 3588.09
+Ya existe ese registro
+Fecha: 09/06/2026
+Valor: 3588.09
+Ya existe ese registro
+Fecha: 10/06/2026
+Valor: 3581.46
+Insertado en BD Verona y Colnotexsa

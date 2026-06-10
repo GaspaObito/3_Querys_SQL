@@ -40,10 +40,17 @@ WITH (
    FIRSTROW = 2 -- Opcional: Saltar encabezados
 );
 /*
-select * from trade where FECHA='15-01-2026'
+select * from trade where FECHA BETWEEN '24-04-2026' AND '27-04-2026' 
 select * from Mvtrade where FECHA='15-01-2026'
 select * from MvCuadre where FECING='15-01-2026'
-delete from Trade where FECHA='15-01-2026'
-delete from Mvtrade where FECING='19-01-2026'
-delete from MvCuadre where FECING='15-01-2026'
+
+USE SUPERTODO
+delete MvCuadre where FECING BETWEEN '01-07-2025' AND '31-07-2025' AND TIPODCTO IN ('R2','R1','R4')
+update Mvtrade set BODEGA='0',PRODUCTO='A-00001' where FECHA BETWEEN '01-07-2025' AND '31-07-2025' AND TIPODCTO IN ('R2','R1','R4')
+delete Mvtrade where FECHA BETWEEN '01-07-2025' AND '31-07-2025' AND TIPODCTO IN ('R2','R1','R4')
+delete Trade where FECHA BETWEEN '01-07-2025' AND '31-07-2025' AND TIPODCTO IN ('R2','R1','R4')
+
+--ACT CODINT
+update Trade set CODINT='0' where TIPODCTO='F2' and NOTA like '%RNY%' and CODINT='428'
+select * from Trade where TIPODCTO='F2' and NOTA like '%RNY%' and CODINT='428'
 */
