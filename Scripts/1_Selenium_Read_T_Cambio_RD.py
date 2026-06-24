@@ -1,4 +1,4 @@
-#IMPORTA LIBRERIAS
+# IMPORTA LIBRERIAS
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,20 +12,24 @@ driver.get(url)
 wait = WebDriverWait(driver, 15)
 
 div = wait.until(
-    EC.presence_of_element_located((By.CLASS_NAME, "doc-card__download"))
+    EC.visibility_of_element_located((By.CLASS_NAME, "doc-card__download"))
 )
-#FECHA TRAIDA
+
+# FECHA TRAIDA
 texto = div.text
 print(texto)
 
-#SEPARA TEXTO
+# SEPARA TEXTO
 fecha, valor = texto.split(" - ")
 valor = valor.replace("RD$", "").strip()
+
+# convertir a número
+valor = float(valor.replace(",", ""))
 
 print("Fecha:", fecha)
 print("Valor:", valor)
 
-#INSERTA DATOS
+# INSERTA DATOS
 import pyodbc
 
 conn1 = pyodbc.connect(
@@ -45,37 +49,41 @@ conn2 = pyodbc.connect(
 cursor1 = conn1.cursor()
 cursor2 = conn2.cursor()
 
-# Validar en BD principal
-cursor1.execute(
-    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)",
-)
+# ✅ VALIDACIÓN OPTIMIZADA
+cursor1.execute("""
+    SELECT CASE 
+        WHEN EXISTS (
+            SELECT 1 
+            FROM MTCAMBIO
+            WHERE FECHA >= CAST(GETDATE() AS DATE)
+              AND FECHA < DATEADD(DAY, 1, CAST(GETDATE() AS DATE))
+        )
+        THEN 1 ELSE 0 
+    END
+""")
 
-exists = cursor1.fetchone()[0]
+existe = cursor1.fetchone()[0]
 
-if exists == 0:
+if existe > 0:
+    print("Ya existe ese registro, no se inserta")
+else:
     # Insert en BD1
-    cursor1.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA) VALUES (?, ?, ?, DATENAME(WEEKDAY, ?))",
-        fecha, valor, valor , fecha
-    )
+    cursor1.execute("""
+        INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA)
+        VALUES (CAST(GETDATE() AS DATE), ?, ?, DATENAME(WEEKDAY, GETDATE()))
+    """, valor, valor)
 
     # Insert en BD2
-    cursor2.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA) VALUES (?, ?, ?, DATENAME(WEEKDAY, ?))",
-        fecha, valor, valor , fecha
-    )
+    cursor2.execute("""
+        INSERT INTO MTCAMBIO (FECHA, VALOR, TASAVEN, DIA)
+        VALUES (CAST(GETDATE() AS DATE), ?, ?, DATENAME(WEEKDAY, GETDATE()))
+    """, valor, valor)
 
     conn1.commit()
     conn2.commit()
 
     print("Insertado en ambas BD")
-else:
-    print("Ya existe ese registro")
-
-conn1.commit()
-conn2.commit()
 
 conn1.close()
 conn2.close()
-
 driver.quit()

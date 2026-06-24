@@ -1,3 +1,0 @@
-Valor: 3425.95
-Insertado correctamente
-Insertado en BD Verona y Colnotexsa

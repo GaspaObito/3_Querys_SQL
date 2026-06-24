@@ -1,4 +1,4 @@
-#IMPORTA LIBRERIAS
+# IMPORTA LIBRERIAS
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -17,11 +17,11 @@ div1 = wait.until(
 
 wait.until(lambda driver: div1.text.strip() != "")
 
-#FECHA TRAIDA
+# TRM
 textoTRM = div1.text
-# quitar puntos (miles) y dejar coma decimal
 textoTRM = textoTRM.replace('.', '')
 textoTRM = textoTRM.replace(',', '.')
+textoTRM = float(textoTRM)
 
 div2 = wait.until(
     EC.presence_of_element_located((By.CLASS_NAME, "tilefecha"))
@@ -29,12 +29,12 @@ div2 = wait.until(
 
 wait.until(lambda driver: div2.text.strip() != "")
 
-#FECHA TRAIDA
+# FECHA TRAIDA
 textoFECHA = div2.text
 
 print("Valor:", textoTRM)
 
-#INSERTA DATOS
+# INSERTA DATOS
 import pyodbc
 
 conn1 = pyodbc.connect(
@@ -52,40 +52,43 @@ conn2 = pyodbc.connect(
 )
 
 cursor1 = conn1.cursor()
-
 cursor2 = conn2.cursor()
 
-cursor1.execute(
-    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)"
-)
+# VALIDAR SI YA EXISTE REGISTRO HOY
+cursor1.execute("""
+    SELECT CASE 
+        WHEN EXISTS (
+            SELECT 1 
+            FROM MTCAMBIO 
+            WHERE FECHA >= CAST(GETDATE() AS DATE)
+              AND FECHA < DATEADD(DAY,1,CAST(GETDATE() AS DATE))
+        ) 
+        THEN 1 ELSE 0 
+    END
+""")
 
 existe = cursor1.fetchone()[0]
 
 if existe > 0:
     print("Ya se ejecutó hoy, no se insertan datos")
 else:
-    cursor1.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, DIA) VALUES (?, ?, DATENAME(WEEKDAY, ?))",
-        textoFECHA, textoTRM, textoFECHA
-    )
+    cursor1.execute("""
+        INSERT INTO MTCAMBIO (FECHA, VALOR, DIA)
+        VALUES (CAST(GETDATE() AS DATE), ?, DATENAME(WEEKDAY, GETDATE()))
+    """, textoTRM)
 
-    cursor2.execute(
-        "INSERT INTO MTCAMBIO (FECHA, VALOR, DIA) VALUES (?, ?, DATENAME(WEEKDAY, ?))",
-        textoFECHA, textoTRM, textoFECHA
-    )
+    cursor2.execute("""
+        INSERT INTO MTCAMBIO (FECHA, VALOR, DIA)
+        VALUES (CAST(GETDATE() AS DATE), ?, DATENAME(WEEKDAY, GETDATE()))
+    """, textoTRM)
 
     conn1.commit()
     conn2.commit()
 
     print("Insertado correctamente")
 
-conn1.commit()
-conn2.commit()
-
-print("Insertado en BD Verona y Colnotexsa")
-
+print("Proceso terminado")
 
 conn1.close()
 conn2.close()
-
 driver.quit()
