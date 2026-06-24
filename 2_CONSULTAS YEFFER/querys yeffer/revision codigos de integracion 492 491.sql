@@ -1,0 +1,19 @@
+select*from TABLAINT where CODCOMP='NC' AND NOMBRE LIKE'%CARTERA%' AND CODCTA IN ('13050501','52356012','53151507','52356014')
+select*from TABLAINT where CODIGO in ('492','491')
+
+select*from TRADE WHERE NRODCTO IN ('50050','50049','50048','50047','50046','50045') AND TIPODCTO='CR'
+
+use CONTROL_OFIMAEnterprise
+select *  from mtusuario where nombre like '%yaneline%'
+
+select*from TABLAINT where CODIGO in ('492','459') and CODCOMP='NC' and NOMBRE LIKE'%CARTERA%'and CODCTA IN ('13050501')
+
+select*from TABLAINT where CODCOMP='NC' AND NOMBRE LIKE'%CARTERA%'  and  CODCTA IN ('13050501')
+
+select*from TABLAINT where CODIGO in ('492','459','416') and CODCOMP='NC'AND NOMBRE LIKE'%CARTERA%' 
+
+select*from TABLAINT where  CODCOMP='NC' and NOMBRE LIKE'%CARTERA%' AND CODCTA LIKE '%53%'
+---and CODCTA IN ('13050501')453 454
+select*from TABLAINT WHERE CODCOMP='NC'and NOMBRE LIKE'%CARTERA%'
+
+select*from TABLAINT where CODIGO in ('202')

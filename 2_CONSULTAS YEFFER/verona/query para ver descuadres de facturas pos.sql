@@ -1,0 +1,5 @@
+SELECT        NRODCTO, BRUTO- DESCUENTO, IVABRUTO, BRUTO + IVABRUTO - DESCUENTO AS total from TRADE where nrodcto IN ('176') and ORIGEN='FAC' and tipodcto='25'
+select sum(VALUNID*CANVENTA)as bruto,sum(VALUNID*CANVENTA)*19/100 as iva,sum(VALUNID*CANVENTA)+sum(VALUNID*CANVENTA)*19/100 from MVTRADE where nrodcto IN ('176') and ORIGEN='FAC' and tipodcto='25'
+SELECT VALORBRUTO,VALORIVA,TOTALFACTURA FROM CABECERA2 WHERE FOLIO=416 and prefijo='FE'
+--SELECT        NRODCTO, BRUTO, IVABRUTO, BRUTO + IVABRUTO AS total from TRADE where nrodcto IN ('386') and tipodcto='Fe' 
+select sum(parcial)as BRUTO, sum(parcial)*19/100 AS IVA, sum(parcial)+sum(parcial)*19/100 AS total_factura from DETALLE2 where Folio=416 and prefijo='FE'

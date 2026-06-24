@@ -1,0 +1,1 @@
+select * from MVTRADE where PRODUCTO='1020000184745' and TIPODCTO='K6'

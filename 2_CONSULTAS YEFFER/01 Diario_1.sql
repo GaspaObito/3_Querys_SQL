@@ -1,0 +1,10 @@
+use toscanazl
+
+update MTMERCIA
+
+set MTMERCIA.FECHA_ING = (select CAST(FECHAING AS VARCHAR) from V_ULTIMA_FECHAING
+
+                                 where MTMERCIA.CODIGO = V_ULTIMA_FECHAING.PRODUCTO)
+
+where MTMERCIA.CODIGO in (select V_ULTIMA_FECHAING.PRODUCTO from V_ULTIMA_FECHAING)
+ 

@@ -1,0 +1,25 @@
+SELECT     A.NRODCTO, A.AUTORIZA, A.TIPOVTA, C.DESCRIPCIO, A.NIT, B.NOMBRE, A.CODVEN, D.NOMBRE , A.FECHA, F.FECHAAUT, E.FECENT, 
+                      F.HHORAAUT, E.PRODUCTO, E.NOMBRE , E.CANTORIG, E.CANTIDAD , E.CANVENTA , 
+                      E.CANTORIG - E.CANVENTA , E.CANTORIG - (E.CANTORIG - E.CANVENTA) , E.VLRVENTA, 
+                      E.CANTORIG * E.VLRVENTA , (E.CANTORIG - E.CANVENTA) * E.VLRVENTA , A.NOTA, A.PASSWORDIN, A.HORA, A.FECMOD, A.REMISION, A.ORDEN, A.DCTOPRV, A.TIPODCTO
+FROM         TRADE A INNER JOIN
+                      MTPROCLI B ON A.NIT = B.NIT INNER JOIN
+                      TIPOVTA C ON A.TIPOVTA = C.TIPOVTA INNER JOIN
+                      VENDEN D ON A.CODVEN = D.CODVEN INNER JOIN
+                      MVTRADE E ON A.TIPODCTO = E.TIPODCTO AND A.NRODCTO = E.NRODCTO INNER JOIN
+                     TRADEMAS F ON A.NRODCTO = F.NRODCTO AND A.ORIGEN = F.ORIGEN AND A.TIPODCTO = F.TIPODCTO
+WHERE     (A.TIPODCTO = 'PD') 
+AND a.FECHA>= '01/01/2024'
+AND A.NIT LIKE '%901391810%'
+AND a.nota not like '%anula%'
+AND a.nota not like '%cancel%'
+ORDER BY E.FECENT DESC, D.NOMBRE
+
+--query para sacar data de colnotex a verona
+SELECT  a.NRODCTO,b.NIT, a.FECHA, a.PRODUCTO, a.NOMBRE,CONCAT(TRIM(a.NRODCTO),A.PRODUCTO) AS CODIGO, B.NOTA, a.CANTORIG, a.COSTO 
+FROM mvtrade a INNER JOIN
+     trade b ON a.nrodcto = b.nrodcto and b.tipodcto ='FA' inner join
+	 mtprocli c on c.nit = b.nit inner join
+	 MTMERCIA d on a.producto = d.codigo
+WHERE (a.TIPODCTO='FA') AND (a.FECHA>=getdate()-120) AND B.NIT LIKE '%901391810%'
+ORDER BY a.FECHA, a.NRODCTO

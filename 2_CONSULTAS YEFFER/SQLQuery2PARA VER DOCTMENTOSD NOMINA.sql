@@ -1,0 +1,6 @@
+select* from TRADE
+WHERE      (NRODCTO IN ('998977'))
+SELECT*
+FROM            MVTO
+WHERE        (DCTO = 'NOM3011') AND (CODIGOCTA = '23359510') AND (FECHAMVTO = '16-11-2023')
+

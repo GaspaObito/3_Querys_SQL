@@ -1,0 +1,30 @@
+-- Datos que están en COLNOTEX pero no en VERONA pt
+SELECT *
+FROM (SELECT  codigo as COD_NO_ESTA_VERONA, DESCRIPCIO
+FROM COLNOTEXSA.dbo.MTMERCIA where tipoinv='PT005'
+EXCEPT
+SELECT codigo, DESCRIPCIO
+FROM VERONASAS.dbo.MTMERCIA WHERE tipoinv='PT005') AS Diferencias
+
+-- Datos que están en VERONA pero no en COLNOTEX
+SELECT *
+FROM (SELECT  codigo
+FROM VERONASAS.dbo.MTMERCIA where tipoinv='PT005'
+EXCEPT
+SELECT codigo
+FROM COLNOTEXSA.dbo.MTMERCIA WHERE tipoinv='PT005') AS Diferencias
+
+-- Datos que están en COLNOTEX pero no en VERONA telas
+SELECT *
+FROM (SELECT  codigo as COD_NO_ESTA_VERONA, DESCRIPCIO
+FROM COLNOTEXSA.dbo.MTMERCIA where tipoinv='TL020'
+EXCEPT
+SELECT codigo, DESCRIPCIO
+FROM VERONASAS.dbo.MTMERCIA WHERE tipoinv='TL020') AS Diferencias
+-- Datos que están en COLNOTEX pero no en VERONA telas VESTUARIO
+SELECT *
+FROM (SELECT  codigo as COD_NO_ESTA_VERONA, DESCRIPCIO
+FROM COLNOTEXSA.dbo.MTMERCIA where tipoinv='TL030'
+EXCEPT
+SELECT codigo, DESCRIPCIO
+FROM VERONASAS.dbo.MTMERCIA WHERE tipoinv='TL030') AS Diferencias

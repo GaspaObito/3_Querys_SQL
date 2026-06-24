@@ -1,0 +1,7 @@
+/* ACTUALIZAR COSTOS PT CON INFORMACION DE COSTOS*/
+
+USE COLNOTEXSA
+update MTMERCIA
+set MTMERCIA.COSTO_ING = (select COSTO from AAAACostos_Sep03$
+               where MTMERCIA.CODIGO = AAAACostos_Sep03$.producto)
+where MTMERCIA.CODIGO in (select PRODUCTO from   AAAACostos_Sep03$)

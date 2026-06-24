@@ -1,0 +1,15 @@
+use VERONASAS
+update trade
+set
+fecha='12-02-2025'
+WHERE        (NRODCTO = '1') AND (TIPODCTO IN ('k7', 'g1'))
+
+use VERONASAS
+update MVTRADE
+set
+fecha='12-02-2025',
+FECENT='12-02-2025',
+FECING='12-02-2025',
+FECMOD='12-02-2025', 
+FHCOMPRA='12-02-2025'
+WHERE        (NRODCTO = '1') AND (TIPODCTO IN ('k7', 'g1'))

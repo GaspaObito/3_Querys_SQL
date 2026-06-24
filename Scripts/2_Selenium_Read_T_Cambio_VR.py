@@ -32,8 +32,6 @@ wait.until(lambda driver: div2.text.strip() != "")
 #FECHA TRAIDA
 textoFECHA = div2.text
 
-
-print("Fecha:", textoFECHA)
 print("Valor:", textoTRM)
 
 #INSERTA DATOS
@@ -57,20 +55,15 @@ cursor1 = conn1.cursor()
 
 cursor2 = conn2.cursor()
 
-# Validar en BD principal
 cursor1.execute(
-    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)",
+    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)"
 )
 
-exists1 = cursor1.fetchone()[0]
+existe = cursor1.fetchone()[0]
 
-cursor2.execute(
-    "SELECT COUNT(*) FROM MTCAMBIO WHERE CAST(FECHA AS DATE) = CAST(GETDATE() AS DATE)",
-)
-
-exists2 = cursor2.fetchone()[0]
-
-if exists1 == 0 and exists2 == 0:
+if existe > 0:
+    print("Ya se ejecutó hoy, no se insertan datos")
+else:
     cursor1.execute(
         "INSERT INTO MTCAMBIO (FECHA, VALOR, DIA) VALUES (?, ?, DATENAME(WEEKDAY, ?))",
         textoFECHA, textoTRM, textoFECHA
@@ -84,9 +77,12 @@ if exists1 == 0 and exists2 == 0:
     conn1.commit()
     conn2.commit()
 
-    print("Insertado en BD Verona y Colnotexsa")
-else:
-    print("Ya existe ese registro")
+    print("Insertado correctamente")
+
+conn1.commit()
+conn2.commit()
+
+print("Insertado en BD Verona y Colnotexsa")
 
 
 conn1.close()
