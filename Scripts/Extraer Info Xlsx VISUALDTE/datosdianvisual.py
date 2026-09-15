@@ -1,6 +1,7 @@
 import os
 from io import StringIO
 from pathlib import Path
+from dotenv import load_dotenv #Ejecutar Env
 #py -m pip install lxml openpyxl
 import pandas as pd
 from selenium import webdriver
@@ -16,6 +17,9 @@ driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 30)
 
 try:
+    #Carga Datos Env
+    load_dotenv("Datos.env")
+    
     # Abrir el inicio de sesión
     driver.get("https://www.visualdte.com.co/login")
 
