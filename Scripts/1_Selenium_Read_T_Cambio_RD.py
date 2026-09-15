@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from datetime import datetime
 
 driver = webdriver.Chrome()
 
@@ -64,8 +65,11 @@ cursor1.execute("""
 
 existe = cursor1.fetchone()[0]
 
+# Obtener fecha y hora actual
+fecha_actual = datetime.now()
+
 if existe > 0:
-    print("Ya existe ese registro, no se inserta")
+    print("Ya existe ese registro, no se inserta datos", fecha_actual)
 else:
     # Insert en BD1
     cursor1.execute("""
@@ -82,7 +86,7 @@ else:
     conn1.commit()
     conn2.commit()
 
-    print("Insertado en ambas BD")
+    print("Insertado en ambas BD", fecha_actual)
 
 conn1.close()
 conn2.close()

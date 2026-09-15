@@ -1,0 +1,1 @@
+sqlcmd -S COLNOTEXNT18 -i D:\Informacion\3_Querys_SQL\QuerysAutoRun\3_UPD_Mtmercia_Global_0.sql -o D:\Informacion\3_Querys_SQL\QuerysAutoRun\3_RP_Mtmercia_Global_0.txt

@@ -1,0 +1,4 @@
+Se cambió el contexto de la base de datos a 'SUPERTODO'.
+
+(15368 filas afectadas)
+Ejecucion realizada en: 14-2026-09 11:01:32.680

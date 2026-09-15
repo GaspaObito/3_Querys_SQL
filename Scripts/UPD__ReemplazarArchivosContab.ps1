@@ -15,7 +15,6 @@ $origenSTD  = "D:\Informacion\Informes Ofimatica\INF_COMPARTIDOS\Informe Diario 
 $origenLPZ  = "D:\Informacion\Informes Ofimatica\INF_COMPARTIDOS\Informe Diario de Caja - Total LPZ V3.xlsm"
 
 $destinosSTD = @(
-    "\\26.146.195.209\informes ofimatica\SUPERTODO\2025",# LIZETTE FLOREZ
     "\\26.75.138.26\informes ofimatica\BESTPRICE",# ANGIE QUINTERO
     "\\26.11.60.111\Informes Ofimatica\2025\Supertodo",# CAMILA GUAUTA
     "\\26.60.74.76\Informes Ofimatica\SUPERTODO",#ESTEFANY ESCOBAR
@@ -28,7 +27,6 @@ $destinosSTD = @(
 )
 
 $destinosLPZ = @(
-    "\\26.146.195.209\informes ofimatica\BESTPRICE\2025",# LIZETTE FLOREZ
     "\\26.75.138.26\informes ofimatica\SUPERTODO",# ANGIE QUINTERO
     "\\26.11.60.111\Informes Ofimatica\2025\BESTPRICE",# CAMILA GUAUTA
     "\\26.60.74.76\Informes Ofimatica\BESTPRICE",#ESTEFANY ESCOBAR

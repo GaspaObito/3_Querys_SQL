@@ -1,0 +1,479 @@
+24/07/2026 - RD$ 57.9919
+Fecha: 24/07/2026
+Valor: 57.9919
+Insertado en ambas BD 2026-07-24 09:30:14.079274
+24/07/2026 - RD$ 57.9919
+Fecha: 24/07/2026
+Valor: 57.9919
+Ya existe ese registro, no se inserta datos 2026-07-24 12:30:18.548591
+24/07/2026 - RD$ 57.9919
+Fecha: 24/07/2026
+Valor: 57.9919
+Insertado en ambas BD 2026-07-25 09:30:11.677034
+24/07/2026 - RD$ 57.9919
+Fecha: 24/07/2026
+Valor: 57.9919
+Ya existe ese registro, no se inserta datos 2026-07-25 12:30:11.692664
+24/07/2026 - RD$ 57.9919
+Fecha: 24/07/2026
+Valor: 57.9919
+Insertado en ambas BD 2026-07-26 09:30:13.728301
+24/07/2026 - RD$ 57.9919
+Fecha: 24/07/2026
+Valor: 57.9919
+Ya existe ese registro, no se inserta datos 2026-07-26 12:30:13.015427
+27/07/2026 - RD$ 58.0688
+Fecha: 27/07/2026
+Valor: 58.0688
+Insertado en ambas BD 2026-07-27 09:30:21.890382
+27/07/2026 - RD$ 58.0688
+Fecha: 27/07/2026
+Valor: 58.0688
+Ya existe ese registro, no se inserta datos 2026-07-27 12:30:10.463275
+27/07/2026 - RD$ 58.0688
+Fecha: 27/07/2026
+Valor: 58.0688
+Insertado en ambas BD 2026-07-28 09:30:16.474535
+28/07/2026 - RD$ 57.8223
+Fecha: 28/07/2026
+Valor: 57.8223
+Ya existe ese registro, no se inserta datos 2026-07-28 12:30:13.127234
+29/07/2026 - RD$ 58.0071
+Fecha: 29/07/2026
+Valor: 58.0071
+Insertado en ambas BD 2026-07-29 09:30:14.838870
+29/07/2026 - RD$ 58.0071
+Fecha: 29/07/2026
+Valor: 58.0071
+Ya existe ese registro, no se inserta datos 2026-07-29 12:30:12.561964
+30/07/2026 - RD$ 57.9479
+Fecha: 30/07/2026
+Valor: 57.9479
+Insertado en ambas BD 2026-07-30 09:30:14.253126
+30/07/2026 - RD$ 57.9479
+Fecha: 30/07/2026
+Valor: 57.9479
+Ya existe ese registro, no se inserta datos 2026-07-30 12:30:09.692255
+31/07/2026 - RD$ 58.1127
+Fecha: 31/07/2026
+Valor: 58.1127
+Insertado en ambas BD 2026-07-31 09:30:17.493697
+31/07/2026 - RD$ 58.1127
+Fecha: 31/07/2026
+Valor: 58.1127
+Ya existe ese registro, no se inserta datos 2026-07-31 12:30:12.228054
+31/07/2026 - RD$ 58.1127
+Fecha: 31/07/2026
+Valor: 58.1127
+Insertado en ambas BD 2026-08-01 09:30:11.270895
+31/07/2026 - RD$ 58.1127
+Fecha: 31/07/2026A
+Valor: 58.1127
+Ya existe ese registro, no se inserta datos 2026-08-01 12:30:13.369107
+31/07/2026 - RD$ 58.1127
+Fecha: 31/07/2026
+Valor: 58.1127
+Insertado en ambas BD 2026-08-02 09:30:11.996054
+31/07/2026 - RD$ 58.1127
+Fecha: 31/07/2026
+Valor: 58.1127
+Ya existe ese registro, no se inserta datos 2026-08-02 12:30:11.338581
+03/08/2026 - RD$ 58.1321
+Fecha: 03/08/2026
+Valor: 58.1321
+Insertado en ambas BD 2026-08-03 09:18:05.909310
+03/08/2026 - RD$ 58.1321
+Fecha: 03/08/2026
+Valor: 58.1321
+Ya existe ese registro, no se inserta datos 2026-08-03 09:30:08.617000
+03/08/2026 - RD$ 58.1321
+Fecha: 03/08/2026
+Valor: 58.1321
+Ya existe ese registro, no se inserta datos 2026-08-03 12:30:10.914414
+04/08/2026 - RD$ 58.3111
+Fecha: 04/08/2026
+Valor: 58.3111
+Insertado en ambas BD 2026-08-04 09:30:19.239401
+04/08/2026 - RD$ 58.3111
+Fecha: 04/08/2026
+Valor: 58.3111
+Ya existe ese registro, no se inserta datos 2026-08-04 12:30:10.613339
+05/08/2026 - RD$ 58.0760
+Fecha: 05/08/2026
+Valor: 58.076
+Insertado en ambas BD 2026-08-05 09:30:23.855103
+05/08/2026 - RD$ 58.0760
+Fecha: 05/08/2026
+Valor: 58.076
+Ya existe ese registro, no se inserta datos 2026-08-05 12:30:17.285181
+06/08/2026 - RD$ 58.1881
+Fecha: 06/08/2026
+Valor: 58.1881
+Insertado en ambas BD 2026-08-06 09:30:15.898694
+06/08/2026 - RD$ 58.1881
+Fecha: 06/08/2026
+Valor: 58.1881
+Ya existe ese registro, no se inserta datos 2026-08-06 12:30:41.829599
+07/08/2026 - RD$ 58.1119
+Fecha: 07/08/2026
+Valor: 58.1119
+Insertado en ambas BD 2026-08-07 09:30:15.209956
+07/08/2026 - RD$ 58.1119
+Fecha: 07/08/2026
+Valor: 58.1119
+Ya existe ese registro, no se inserta datos 2026-08-07 12:30:10.325714
+07/08/2026 - RD$ 58.1119
+Fecha: 07/08/2026
+Valor: 58.1119
+Insertado en ambas BD 2026-08-08 09:30:18.979438
+07/08/2026 - RD$ 58.1119
+Fecha: 07/08/2026
+Valor: 58.1119
+Ya existe ese registro, no se inserta datos 2026-08-08 12:30:11.212728
+07/08/2026 - RD$ 58.1119
+Fecha: 07/08/2026
+Valor: 58.1119
+Insertado en ambas BD 2026-08-09 09:30:20.852720
+07/08/2026 - RD$ 58.1119
+Fecha: 07/08/2026
+Valor: 58.1119
+Ya existe ese registro, no se inserta datos 2026-08-09 12:30:13.418635
+10/08/2026 - RD$ 58.1219
+Fecha: 10/08/2026
+Valor: 58.1219
+Insertado en ambas BD 2026-08-10 09:30:17.720003
+10/08/2026 - RD$ 58.1219
+Fecha: 10/08/2026
+Valor: 58.1219
+Ya existe ese registro, no se inserta datos 2026-08-10 12:30:13.158665
+10/08/2026 - RD$ 58.1219
+Fecha: 10/08/2026
+Valor: 58.1219
+Insertado en ambas BD 2026-08-11 09:30:21.493565
+11/08/2026 - RD$ 58.1990
+Fecha: 11/08/2026
+Valor: 58.199
+Ya existe ese registro, no se inserta datos 2026-08-11 12:30:10.815463
+12/08/2026 - RD$ 58.3396
+Fecha: 12/08/2026
+Valor: 58.3396
+Insertado en ambas BD 2026-08-12 09:30:15.839770
+12/08/2026 - RD$ 58.3396
+Fecha: 12/08/2026
+Valor: 58.3396
+Ya existe ese registro, no se inserta datos 2026-08-12 12:30:16.803804
+13/08/2026 - RD$ 58.4020
+Fecha: 13/08/2026
+Valor: 58.402
+Insertado en ambas BD 2026-08-13 09:30:19.855837
+13/08/2026 - RD$ 58.4020
+Fecha: 13/08/2026
+Valor: 58.402
+Ya existe ese registro, no se inserta datos 2026-08-13 12:30:11.224983
+14/08/2026 - RD$ 58.4547
+Fecha: 14/08/2026
+Valor: 58.4547
+Insertado en ambas BD 2026-08-14 09:30:11.553979
+14/08/2026 - RD$ 58.4547
+Fecha: 14/08/2026
+Valor: 58.4547
+Ya existe ese registro, no se inserta datos 2026-08-14 12:30:09.796615
+14/08/2026 - RD$ 58.4547
+Fecha: 14/08/2026
+Valor: 58.4547
+Insertado en ambas BD 2026-08-15 09:30:14.745489
+14/08/2026 - RD$ 58.4547
+Fecha: 14/08/2026
+Valor: 58.4547
+Ya existe ese registro, no se inserta datos 2026-08-15 12:30:14.829239
+14/08/2026 - RD$ 58.4547
+Fecha: 14/08/2026
+Valor: 58.4547
+Insertado en ambas BD 2026-08-16 09:30:19.646464
+14/08/2026 - RD$ 58.4547
+Fecha: 14/08/2026
+Valor: 58.4547
+Ya existe ese registro, no se inserta datos 2026-08-16 12:30:15.111624
+17/08/2026 - RD$ 58.5539
+Fecha: 17/08/2026
+Valor: 58.5539
+Insertado en ambas BD 2026-08-17 09:30:15.178677
+17/08/2026 - RD$ 58.5539
+Fecha: 17/08/2026
+Valor: 58.5539
+Ya existe ese registro, no se inserta datos 2026-08-17 12:30:10.755854
+18/08/2026 - RD$ 58.5981
+Fecha: 18/08/2026
+Valor: 58.5981
+Insertado en ambas BD 2026-08-18 09:30:11.664588
+^C19/08/2026 - RD$ 58.7488
+Fecha: 19/08/2026
+Valor: 58.7488
+Insertado en ambas BD 2026-08-19 09:30:20.414017
+19/08/2026 - RD$ 58.7488
+Fecha: 19/08/2026
+Valor: 58.7488
+Ya existe ese registro, no se inserta datos 2026-08-19 12:30:09.983623
+20/08/2026 - RD$ 58.8164
+Fecha: 20/08/2026
+Valor: 58.8164
+Insertado en ambas BD 2026-08-20 09:30:18.284480
+20/08/2026 - RD$ 58.8164
+Fecha: 20/08/2026
+Valor: 58.8164
+Ya existe ese registro, no se inserta datos 2026-08-20 12:30:09.885311
+21/08/2026 - RD$ 58.3185
+Fecha: 21/08/2026
+Valor: 58.3185
+Insertado en ambas BD 2026-08-21 09:30:14.546891
+21/08/2026 - RD$ 58.3185
+Fecha: 21/08/2026
+Valor: 58.3185
+Ya existe ese registro, no se inserta datos 2026-08-21 12:30:11.549048
+21/08/2026 - RD$ 58.3185
+Fecha: 21/08/2026
+Valor: 58.3185
+Insertado en ambas BD 2026-08-22 09:30:12.798790
+21/08/2026 - RD$ 58.3185
+Fecha: 21/08/2026
+Valor: 58.3185
+Ya existe ese registro, no se inserta datos 2026-08-22 12:30:09.775979
+21/08/2026 - RD$ 58.3185
+Fecha: 21/08/2026
+Valor: 58.3185
+Insertado en ambas BD 2026-08-23 09:30:17.732550
+21/08/2026 - RD$ 58.3185
+Fecha: 21/08/2026
+Valor: 58.3185
+Ya existe ese registro, no se inserta datos 2026-08-23 12:30:15.336029
+24/08/2026 - RD$ 58.0719
+Fecha: 24/08/2026
+Valor: 58.0719
+Insertado en ambas BD 2026-08-24 09:30:14.493818
+24/08/2026 - RD$ 58.0719
+Fecha: 24/08/2026
+Valor: 58.0719
+Ya existe ese registro, no se inserta datos 2026-08-24 12:30:13.047065
+25/08/2026 - RD$ 58.013
+Fecha: 25/08/2026
+Valor: 58.013
+Insertado en ambas BD 2026-08-25 09:31:08.427056
+25/08/2026 - RD$ 58.013
+Fecha: 25/08/2026
+Valor: 58.013
+Ya existe ese registro, no se inserta datos 2026-08-25 12:30:12.688656
+26/08/2026 - RD$ 58.1489
+Fecha: 26/08/2026
+Valor: 58.1489
+Insertado en ambas BD 2026-08-26 09:30:13.925366
+26/08/2026 - RD$ 58.1489
+Fecha: 26/08/2026
+Valor: 58.1489
+Ya existe ese registro, no se inserta datos 2026-08-26 12:30:18.204679
+27/08/2026 - RD$ 58.2451
+Fecha: 27/08/2026
+Valor: 58.2451
+Insertado en ambas BD 2026-08-27 09:30:26.831680
+27/08/2026 - RD$ 58.2451
+Fecha: 27/08/2026
+Valor: 58.2451
+Ya existe ese registro, no se inserta datos 2026-08-27 12:30:17.586455
+Traceback (most recent call last):
+  File "D:\Informacion\3_Querys_SQL\Scripts\1_Selenium_Read_T_Cambio_RD.py", line 8, in <module>
+    driver = webdriver.Chrome()
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 66, in __init__
+    super().__init__(command_executor=executor, options=self.options)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\common\webdriver.py", line 25, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 271, in __init__
+    self.start_session(capabilities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 366, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\Josea\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created
+from chrome not reachable; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff648c6abb5+151b5]
+	chromedriver!GetHandleVerifier [0x7ff648c6ac10+15210]
+	chromedriver!(No symbol) [0x7ff648795b56]
+	chromedriver!(No symbol) [0x7ff6487865aa]
+	chromedriver!(No symbol) [0x7ff6487dec3b]
+	chromedriver!(No symbol) [0x7ff6487d91b7]
+	chromedriver!(No symbol) [0x7ff6487d3e4f]
+	chromedriver!(No symbol) [0x7ff648827e81]
+	chromedriver!(No symbol) [0x7ff6488276e6]
+	chromedriver!(No symbol) [0x7ff6487e37cc]
+	chromedriver!(No symbol) [0x7ff6487e46f3]
+	chromedriver!GetHandleVerifier [0x7ff64928b79b+635d9b]
+	chromedriver!GetHandleVerifier [0x7ff649285ac6+6300c6]
+	chromedriver!GetHandleVerifier [0x7ff6492abcee+6562ee]
+	chromedriver!GetHandleVerifier [0x7ff648c88ffe+335fe]
+	chromedriver!GetHandleVerifier [0x7ff648c9147c+3ba7c]
+	chromedriver!GetHandleVerifier [0x7ff648c74d64+1f364]
+	chromedriver!GetHandleVerifier [0x7ff648c74ef4+1f4f4]
+	chromedriver!GetHandleVerifier [0x7ff648c57d97+2397]
+	KERNEL32!BaseThreadInitThunk [0x7ffa9e657374+14]
+	ntdll!RtlUserThreadStart [0x7ffa9ed9cc91+21]
+
+28/08/2026 - RD$ 58.6119
+Fecha: 28/08/2026
+Valor: 58.6119
+Insertado en ambas BD 2026-08-28 12:30:16.206666
+28/08/2026 - RD$ 58.6119
+Fecha: 28/08/2026
+Valor: 58.6119
+Insertado en ambas BD 2026-08-29 09:30:16.853780
+28/08/2026 - RD$ 58.6119
+Fecha: 28/08/2026
+Valor: 58.6119
+Ya existe ese registro, no se inserta datos 2026-08-29 12:30:15.415522
+28/08/2026 - RD$ 58.6119
+Fecha: 28/08/2026
+Valor: 58.6119
+Insertado en ambas BD 2026-08-30 09:30:20.389288
+28/08/2026 - RD$ 58.6119
+Fecha: 28/08/2026
+Valor: 58.6119
+Ya existe ese registro, no se inserta datos 2026-08-30 12:30:18.486542
+31/08/2026 - RD$ 58.6440
+Fecha: 31/08/2026
+Valor: 58.644
+Insertado en ambas BD 2026-08-31 09:30:19.033347
+31/08/2026 - RD$ 58.6440
+Fecha: 31/08/2026
+Valor: 58.644
+Ya existe ese registro, no se inserta datos 2026-08-31 12:30:10.805639
+31/08/2026 - RD$ 58.6440
+Fecha: 31/08/2026
+Valor: 58.644
+Insertado en ambas BD 2026-09-01 09:30:16.746640
+31/08/2026 - RD$ 58.6440
+Fecha: 31/08/2026
+Valor: 58.644
+Ya existe ese registro, no se inserta datos 2026-09-01 12:30:18.544130
+02/09/2026 - RD$ 58.5541
+Fecha: 02/09/2026
+Valor: 58.5541
+Insertado en ambas BD 2026-09-02 09:30:12.519608
+02/09/2026 - RD$ 58.5541
+Fecha: 02/09/2026
+Valor: 58.5541
+Ya existe ese registro, no se inserta datos 2026-09-02 12:30:10.599334
+03/09/2026 - RD$ 58.6455
+Fecha: 03/09/2026
+Valor: 58.6455
+Insertado en ambas BD 2026-09-03 09:30:14.617164
+03/09/2026 - RD$ 58.6455
+Fecha: 03/09/2026
+Valor: 58.6455
+Ya existe ese registro, no se inserta datos 2026-09-03 12:30:09.678738
+04/09/2026 - RD$ 59.0034
+Fecha: 04/09/2026
+Valor: 59.0034
+Insertado en ambas BD 2026-09-04 09:30:18.982313
+04/09/2026 - RD$ 59.0034
+Fecha: 04/09/2026
+Valor: 59.0034
+Ya existe ese registro, no se inserta datos 2026-09-04 12:30:13.956367
+04/09/2026 - RD$ 59.0034
+Fecha: 04/09/2026
+Valor: 59.0034
+Insertado en ambas BD 2026-09-05 09:30:16.895754
+04/09/2026 - RD$ 59.0034
+Fecha: 04/09/2026
+Valor: 59.0034
+Ya existe ese registro, no se inserta datos 2026-09-05 12:30:13.978854
+04/09/2026 - RD$ 59.0034
+Fecha: 04/09/2026
+Valor: 59.0034
+Insertado en ambas BD 2026-09-06 09:30:22.582833
+04/09/2026 - RD$ 59.0034
+Fecha: 04/09/2026
+Valor: 59.0034
+Ya existe ese registro, no se inserta datos 2026-09-06 12:30:13.804539
+07/09/2026 - RD$ 58.6639
+Fecha: 07/09/2026
+Valor: 58.6639
+Insertado en ambas BD 2026-09-07 09:30:15.386518
+07/09/2026 - RD$ 58.6639
+Fecha: 07/09/2026
+Valor: 58.6639
+Ya existe ese registro, no se inserta datos 2026-09-07 12:30:29.008012
+08/09/2026 - RD$ 58.5789
+Fecha: 08/09/2026
+Valor: 58.5789
+Insertado en ambas BD 2026-09-08 09:30:15.397522
+08/09/2026 - RD$ 58.5789
+Fecha: 08/09/2026
+Valor: 58.5789
+Ya existe ese registro, no se inserta datos 2026-09-08 12:30:14.411818
+09/09/2026 - RD$ 58.6307
+Fecha: 09/09/2026
+Valor: 58.6307
+Insertado en ambas BD 2026-09-09 09:30:21.488459
+09/09/2026 - RD$ 58.6307
+Fecha: 09/09/2026
+Valor: 58.6307
+Ya existe ese registro, no se inserta datos 2026-09-09 12:30:13.612162
+10/09/2026 - RD$ 58.6334
+Fecha: 10/09/2026
+Valor: 58.6334
+Insertado en ambas BD 2026-09-10 09:30:34.725957
+10/09/2026 - RD$ 58.6334
+Fecha: 10/09/2026
+Valor: 58.6334
+Ya existe ese registro, no se inserta datos 2026-09-10 12:30:15.069296
+11/09/2026 - RD$ 58.9617
+Fecha: 11/09/2026
+Valor: 58.9617
+Insertado en ambas BD 2026-09-11 09:30:16.939861
+11/09/2026 - RD$ 58.9617
+Fecha: 11/09/2026
+Valor: 58.9617
+Ya existe ese registro, no se inserta datos 2026-09-11 12:30:16.475754
+11/09/2026 - RD$ 58.9617
+Fecha: 11/09/2026
+Valor: 58.9617
+Insertado en ambas BD 2026-09-12 09:30:19.544360
+11/09/2026 - RD$ 58.9617
+Fecha: 11/09/2026
+Valor: 58.9617
+Ya existe ese registro, no se inserta datos 2026-09-12 12:30:16.156018
+11/09/2026 - RD$ 58.9617
+Fecha: 11/09/2026
+Valor: 58.9617
+Insertado en ambas BD 2026-09-13 09:30:13.050662
+11/09/2026 - RD$ 58.9617
+Fecha: 11/09/2026
+Valor: 58.9617
+Ya existe ese registro, no se inserta datos 2026-09-13 12:30:18.741579
+14/09/2026 - RD$ 58.9186
+Fecha: 14/09/2026
+Valor: 58.9186
+Insertado en ambas BD 2026-09-14 09:30:26.789928
+14/09/2026 - RD$ 58.9186
+Fecha: 14/09/2026
+Valor: 58.9186
+Ya existe ese registro, no se inserta datos 2026-09-14 12:30:13.538376
+15/09/2026 - RD$ 58.8387
+Fecha: 15/09/2026
+Valor: 58.8387
+Insertado en ambas BD 2026-09-15 09:30:18.320579

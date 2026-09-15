@@ -3,6 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from datetime import datetime
 
 driver = webdriver.Chrome()
 
@@ -69,8 +70,11 @@ cursor1.execute("""
 
 existe = cursor1.fetchone()[0]
 
+# Obtener fecha y hora actual
+fecha_actual = datetime.now()
+
 if existe > 0:
-    print("Ya se ejecutó hoy, no se insertan datos")
+    print("Ya existe ese registro, no se insertan datos", fecha_actual)
 else:
     cursor1.execute("""
         INSERT INTO MTCAMBIO (FECHA, VALOR, DIA)
@@ -85,9 +89,7 @@ else:
     conn1.commit()
     conn2.commit()
 
-    print("Insertado correctamente")
-
-print("Proceso terminado")
+    print("Insertado correctamente", fecha_actual)
 
 conn1.close()
 conn2.close()

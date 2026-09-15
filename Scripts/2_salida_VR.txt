@@ -1,0 +1,214 @@
+Valor: 3219.31
+Insertado correctamente 2026-07-24 08:00:13.260407
+Valor: 3219.31
+Ya existe ese registro, no se insertan datos 2026-07-24 12:00:09.839279
+Valor: 3210.56
+Insertado correctamente 2026-07-25 08:00:14.227519
+Valor: 3210.56
+Ya existe ese registro, no se insertan datos 2026-07-25 12:00:07.469556
+Valor: 3210.56
+Insertado correctamente 2026-07-26 08:00:11.553193
+Valor: 3210.56
+Ya existe ese registro, no se insertan datos 2026-07-26 12:00:10.272474
+Valor: 3210.56
+Insertado correctamente 2026-07-27 08:00:10.528246
+Valor: 3210.56
+Ya existe ese registro, no se insertan datos 2026-07-27 12:00:11.918191
+Valor: 3205.8
+Insertado correctamente 2026-07-28 08:00:11.396624
+Valor: 3205.8
+Ya existe ese registro, no se insertan datos 2026-07-28 12:00:11.474475
+Valor: 3205.87
+Insertado correctamente 2026-07-29 08:00:11.758432
+Valor: 3205.87
+Ya existe ese registro, no se insertan datos 2026-07-29 12:00:09.092912
+Valor: 3206.18
+Insertado correctamente 2026-07-30 12:00:11.225678
+Valor: 3132.42
+Insertado correctamente 2026-07-31 08:00:14.351857
+Valor: 3132.42
+Ya existe ese registro, no se insertan datos 2026-07-31 12:00:11.187138
+Valor: 3144.14
+Insertado correctamente 2026-08-01 08:00:20.559795
+Valor: 3144.14
+Ya existe ese registro, no se insertan datos 2026-08-01 12:00:07.895409
+Valor: 3144.14
+Insertado correctamente 2026-08-02 08:00:11.957877
+Valor: 3144.14
+Ya existe ese registro, no se insertan datos 2026-08-02 12:00:07.848457
+Valor: 3144.14
+Insertado correctamente 2026-08-03 08:00:10.234076
+Valor: 3144.14
+Ya existe ese registro, no se insertan datos 2026-08-03 09:18:00.294203
+Valor: 3144.14
+Ya existe ese registro, no se insertan datos 2026-08-03 12:00:23.232956
+Valor: 3230.44
+Insertado correctamente 2026-08-04 08:00:12.425169
+Valor: 3230.44
+Ya existe ese registro, no se insertan datos 2026-08-04 12:00:15.649331
+Valor: 3204.51
+Insertado correctamente 2026-08-05 08:00:23.621274
+Valor: 3204.51
+Ya existe ese registro, no se insertan datos 2026-08-05 12:00:12.833610
+Valor: 3179.4
+Insertado correctamente 2026-08-06 08:00:18.099589
+Valor: 3179.4
+Ya existe ese registro, no se insertan datos 2026-08-06 12:00:16.806743
+Valor: 3157.43
+Insertado correctamente 2026-08-07 08:00:17.711777
+Valor: 3157.43
+Ya existe ese registro, no se insertan datos 2026-08-07 12:00:08.778343
+Valor: 3157.43
+Insertado correctamente 2026-08-08 08:00:13.800130
+Valor: 3157.43
+Ya existe ese registro, no se insertan datos 2026-08-08 12:00:07.585831
+Valor: 3157.43
+Insertado correctamente 2026-08-09 08:00:12.650077
+Valor: 3157.43
+Ya existe ese registro, no se insertan datos 2026-08-09 12:00:11.190153
+Valor: 3157.43
+Insertado correctamente 2026-08-10 08:00:13.672415
+Valor: 3157.43
+Ya existe ese registro, no se insertan datos 2026-08-10 12:00:12.758197
+Valor: 3125.47
+Insertado correctamente 2026-08-11 08:00:13.660403
+Valor: 3125.47
+Ya existe ese registro, no se insertan datos 2026-08-11 12:00:13.560750
+Valor: 3121.07
+Insertado correctamente 2026-08-12 08:00:17.954760
+Valor: 3121.07
+Ya existe ese registro, no se insertan datos 2026-08-12 12:00:10.156023
+Valor: 3123.28
+Insertado correctamente 2026-08-13 08:00:14.256935
+Valor: 3123.28
+Ya existe ese registro, no se insertan datos 2026-08-13 12:00:10.940745
+Valor: 3127.51
+Insertado correctamente 2026-08-14 08:00:12.008953
+Valor: 3127.51
+Ya existe ese registro, no se insertan datos 2026-08-14 12:00:08.213668
+Valor: 3128.65
+Insertado correctamente 2026-08-15 08:00:12.471424
+Valor: 3128.65
+Ya existe ese registro, no se insertan datos 2026-08-15 12:00:08.975437
+Valor: 3128.65
+Insertado correctamente 2026-08-16 08:00:12.571911
+Valor: 3128.65
+Ya existe ese registro, no se insertan datos 2026-08-16 12:00:10.181864
+Valor: 3128.65
+Insertado correctamente 2026-08-17 08:00:12.505883
+Valor: 3128.65
+Ya existe ese registro, no se insertan datos 2026-08-17 12:00:10.608732
+Valor: 3128.65
+Insertado correctamente 2026-08-18 08:00:10.362473
+Valor: 3128.65
+Ya existe ese registro, no se insertan datos 2026-08-18 12:00:12.747878
+Valor: 3098.79
+Insertado correctamente 2026-08-19 08:00:18.289995
+Valor: 3098.79
+Ya existe ese registro, no se insertan datos 2026-08-19 12:00:12.140516
+Valor: 3053.48
+Insertado correctamente 2026-08-20 08:00:16.127132
+Valor: 3053.48
+Ya existe ese registro, no se insertan datos 2026-08-20 12:00:08.153827
+Valor: 3062.96
+Insertado correctamente 2026-08-21 08:00:11.686752
+Valor: 3062.96
+Ya existe ese registro, no se insertan datos 2026-08-21 12:00:10.423727
+Valor: 3048.12
+Insertado correctamente 2026-08-22 08:00:10.884966
+Valor: 3048.12
+Ya existe ese registro, no se insertan datos 2026-08-22 12:00:07.318793
+Valor: 3048.12
+Insertado correctamente 2026-08-23 08:00:08.464246
+Valor: 3048.12
+Ya existe ese registro, no se insertan datos 2026-08-23 12:00:11.187190
+Valor: 3048.12
+Insertado correctamente 2026-08-24 08:00:13.047934
+Valor: 3048.12
+Ya existe ese registro, no se insertan datos 2026-08-24 12:00:13.813754
+Valor: 3056.51
+Insertado correctamente 2026-08-25 08:00:17.365593
+Valor: 3056.51
+Ya existe ese registro, no se insertan datos 2026-08-25 12:00:13.541852
+Valor: 3081.67
+Insertado correctamente 2026-08-26 08:00:17.927546
+Valor: 3081.67
+Ya existe ese registro, no se insertan datos 2026-08-26 12:00:13.068706
+Valor: 3118.24
+Insertado correctamente 2026-08-27 08:00:13.726862
+Valor: 3118.24
+Ya existe ese registro, no se insertan datos 2026-08-27 12:00:12.837219
+Valor: 3144.28
+Insertado correctamente 2026-08-28 08:00:23.609873
+Valor: 3144.28
+Ya existe ese registro, no se insertan datos 2026-08-28 12:00:14.043612
+Valor: 3202.79
+Insertado correctamente 2026-08-29 08:00:13.798122
+Valor: 3202.79
+Ya existe ese registro, no se insertan datos 2026-08-29 12:00:10.599786
+Valor: 3202.79
+Insertado correctamente 2026-08-30 08:00:11.830509
+Valor: 3202.79
+Ya existe ese registro, no se insertan datos 2026-08-30 12:00:11.055646
+Valor: 3202.79
+Insertado correctamente 2026-08-31 08:00:16.711087
+Valor: 3202.79
+Ya existe ese registro, no se insertan datos 2026-08-31 12:00:11.734264
+Valor: 3213.97
+Insertado correctamente 2026-09-01 08:00:21.304718
+Valor: 3213.97
+Ya existe ese registro, no se insertan datos 2026-09-01 12:00:11.079075
+Valor: 3184.0
+Insertado correctamente 2026-09-02 08:00:17.038575
+Valor: 3184.0
+Ya existe ese registro, no se insertan datos 2026-09-02 12:00:11.654143
+Valor: 3140.55
+Insertado correctamente 2026-09-03 08:00:14.292344
+Valor: 3140.55
+Ya existe ese registro, no se insertan datos 2026-09-03 12:00:12.168787
+Valor: 3141.36
+Insertado correctamente 2026-09-04 08:00:20.395182
+Valor: 3141.36
+Ya existe ese registro, no se insertan datos 2026-09-04 12:00:11.568123
+Valor: 3126.08
+Insertado correctamente 2026-09-05 08:00:13.569853
+Valor: 3126.08
+Ya existe ese registro, no se insertan datos 2026-09-05 12:00:11.222761
+Valor: 3126.08
+Insertado correctamente 2026-09-06 08:00:14.778906
+Valor: 3126.08
+Ya existe ese registro, no se insertan datos 2026-09-06 12:00:10.437438
+Valor: 3126.08
+Insertado correctamente 2026-09-07 08:00:12.657761
+Valor: 3126.08
+Ya existe ese registro, no se insertan datos 2026-09-07 12:00:11.672055
+Valor: 3126.08
+Insertado correctamente 2026-09-08 08:00:19.255390
+Valor: 3126.08
+Ya existe ese registro, no se insertan datos 2026-09-08 12:00:12.264917
+Valor: 3116.47
+Insertado correctamente 2026-09-09 08:00:18.953339
+Valor: 3116.47
+Ya existe ese registro, no se insertan datos 2026-09-09 12:00:12.573738
+Valor: 3099.48
+Insertado correctamente 2026-09-10 08:00:18.254919
+Valor: 3099.48
+Ya existe ese registro, no se insertan datos 2026-09-10 12:00:07.874310
+Valor: 3101.0
+Insertado correctamente 2026-09-11 08:00:14.273165
+Valor: 3101.0
+Ya existe ese registro, no se insertan datos 2026-09-11 12:00:13.526853
+Valor: 3072.27
+Insertado correctamente 2026-09-12 08:00:13.660065
+Valor: 3072.27
+Ya existe ese registro, no se insertan datos 2026-09-12 12:00:11.748860
+Valor: 3072.27
+Insertado correctamente 2026-09-13 08:00:31.595059
+Valor: 3072.27
+Ya existe ese registro, no se insertan datos 2026-09-13 12:00:10.512507
+Valor: 3072.27
+Insertado correctamente 2026-09-14 08:00:10.244023
+Valor: 3072.27
+Ya existe ese registro, no se insertan datos 2026-09-14 12:00:15.252532
+Valor: 3109.3
+Insertado correctamente 2026-09-15 08:00:15.742491
