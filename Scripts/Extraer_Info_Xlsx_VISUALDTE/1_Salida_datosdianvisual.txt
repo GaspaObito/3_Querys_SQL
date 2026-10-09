@@ -1,0 +1,135 @@
+
+===== INICIO: 08/10/2026  8:16:14,68 =====
+Inicio de sesion correcto: http://181.78.72.8:8079/menuerp
+Consultando prefijo: VR01
+VR01: 45 registros encontrados
+Consultando prefijo: VR02
+VR02: 46 registros encontrados
+Consultando prefijo: VR03
+VR03: 20 registros encontrados
+Consultando prefijo: VR05
+VR05: 25 registros encontrados
+Consultando prefijo: VR06
+VR06: 33 registros encontrados
+Consultando prefijo: VR07
+VR07: 24 registros encontrados
+Consultando prefijo: VR08
+VR08: 23 registros encontrados
+Consultando prefijo: VR09
+VR09: 83 registros encontrados
+Consultando prefijo: VR10
+VR10: 37 registros encontrados
+Consultando prefijo: VR14
+VR14: 138 registros encontrados
+Consultando prefijo: VR15
+VR15: 8 registros encontrados
+Consultando prefijo: VR16
+VR16: 43 registros encontrados
+Consultando prefijo: VR18
+VR18: 23 registros encontrados
+Consultando prefijo: VR19
+VR19: 84 registros encontrados
+Consultando prefijo: VR20
+VR20: 11 registros encontrados
+Consultando prefijo: VR21
+VR21: 48 registros encontrados
+Consultando prefijo: VR22
+VR22: 27 registros encontrados
+Consultando prefijo: VR23
+VR23: 11 registros encontrados
+Consultando documentos de Ofima...
+Ofima devolvio 721 documentos con prefijo configurado
+Documentos de Ofima no encontrados en VisualDTE: 3
+Total VisualDTE: 729
+Archivo guardado en: D:\Informacion\3_Querys_SQL\Scripts\Extraer_Info_Xlsx_VISUALDTE\comparacion_ofima_visualdte.xlsx
+Correo enviado correctamente
+
+===== INICIO: 08/10/2026 19:04:32,76 =====
+Inicio de sesion correcto: http://181.78.72.8:8079/menuerp
+Consultando prefijo: VR01
+VR01: 88 registros encontrados
+Consultando prefijo: VR02
+VR02: 107 registros encontrados
+Consultando prefijo: VR03
+VR03: 36 registros encontrados
+Consultando prefijo: VR05
+VR05: 49 registros encontrados
+Consultando prefijo: VR06
+VR06: 77 registros encontrados
+Consultando prefijo: VR07
+VR07: 59 registros encontrados
+Consultando prefijo: VR08
+VR08: 57 registros encontrados
+Consultando prefijo: VR09
+VR09: 160 registros encontrados
+Consultando prefijo: VR10
+VR10: 76 registros encontrados
+Consultando prefijo: VR14
+VR14: 267 registros encontrados
+Consultando prefijo: VR15
+VR15: 13 registros encontrados
+Consultando prefijo: VR16
+VR16: 87 registros encontrados
+Consultando prefijo: VR18
+VR18: 39 registros encontrados
+Consultando prefijo: VR19
+VR19: 136 registros encontrados
+Consultando prefijo: VR20
+VR20: 27 registros encontrados
+Consultando prefijo: VR21
+VR21: 105 registros encontrados
+Consultando prefijo: VR22
+VR22: 41 registros encontrados
+Consultando prefijo: VR23
+VR23: 29 registros encontrados
+Consultando documentos de Ofima...
+Ofima devolvio 1523 documentos con prefijo configurado
+Documentos de Ofima no encontrados en VisualDTE: 81
+Total VisualDTE: 1453
+Archivo guardado en: D:\Informacion\3_Querys_SQL\Scripts\Extraer_Info_Xlsx_VISUALDTE\comparacion_ofima_visualdte.xlsx
+Correo enviado correctamente
+
+===== INICIO: 09/10/2026  7:00:01,54 =====
+Inicio de sesion correcto: http://181.78.72.8:8079/menuerp
+Consultando prefijo: VR01
+VR01: 93 registros encontrados
+Consultando prefijo: VR02
+VR02: 110 registros encontrados
+Consultando prefijo: VR03
+VR03: 36 registros encontrados
+Consultando prefijo: VR05
+VR05: 52 registros encontrados
+Consultando prefijo: VR06
+VR06: 82 registros encontrados
+Consultando prefijo: VR07
+VR07: 59 registros encontrados
+Consultando prefijo: VR08
+VR08: 57 registros encontrados
+Consultando prefijo: VR09
+VR09: 169 registros encontrados
+Consultando prefijo: VR10
+VR10: 76 registros encontrados
+Consultando prefijo: VR14
+VR14: 274 registros encontrados
+Consultando prefijo: VR15
+VR15: 13 registros encontrados
+Consultando prefijo: VR16
+VR16: 89 registros encontrados
+Consultando prefijo: VR18
+VR18: 39 registros encontrados
+Consultando prefijo: VR19
+VR19: 173 registros encontrados
+Consultando prefijo: VR20
+VR20: 27 registros encontrados
+Consultando prefijo: VR21
+VR21: 113 registros encontrados
+Consultando prefijo: VR22
+VR22: 43 registros encontrados
+Consultando prefijo: VR23
+VR23: 29 registros encontrados
+Consultando documentos de Ofima...
+Ofima devolvio 1523 documentos con prefijo configurado
+Documentos de Ofima no encontrados en VisualDTE: 0
+Total VisualDTE: 1534
+Archivo guardado en: D:\Informacion\3_Querys_SQL\Scripts\Extraer_Info_Xlsx_VISUALDTE\comparacion_ofima_visualdte.xlsx
+Correo enviado correctamente

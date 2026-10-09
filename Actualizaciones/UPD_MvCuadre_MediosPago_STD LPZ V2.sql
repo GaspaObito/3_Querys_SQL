@@ -14,12 +14,12 @@ OUTER APPLY (
         b.CODBANCO
     FROM MvCuadre b
     WHERE b.TIPODCTO = a.TIPODCTO
-      AND b.MEDIOPAG = '01'
+      AND b.MEDIOPAG = '54'
       AND b.DCTO <> a.DCTO
     ORDER BY b.FECING DESC, b.CODBANCO DESC
 ) b
-WHERE a.DCTO = '85818'
-  AND a.TIPODCTO = 'B2'
+WHERE a.DCTO = '16'
+  AND a.TIPODCTO = '21'
   AND b.CODBANCO IS NOT NULL;
   */
 
@@ -31,10 +31,9 @@ CROSS APPLY (
     SELECT TOP 1 *
     FROM MvCuadre b
     WHERE b.TIPODCTO = a.TIPODCTO
-      AND b.MEDIOPAG = '01'
     ORDER BY b.FECING DESC
 ) b
-WHERE a.DCTO = '85818'
+WHERE a.DCTO = '117294'
   AND a.TIPODCTO = 'B2';
 
---select * from MtMedPag
+select DESCRIPCIO,MEDIOPAG from MtMedPag

@@ -1,0 +1,40 @@
+ATAJOS SQL - DESCRIPCIÓN
+=========================
+
+Uso: escriba el atajo en SQL Server Management Studio y presione espacio.
+Antes de ejecutar, complete los valores vacíos entre comillas simples.
+
+sqlfecha
+Muestra la fecha y hora actual del servidor SQL.
+
+sqlfactura
+Consulta una factura por su número en invoice_log.
+
+sqllineas
+Consulta las líneas o detalles de una factura por su número en inv_line_log.
+
+sqlusuario
+Consulta los cambios registrados de un usuario en customer_master_log.
+La consulta deja un comentario "-- corregir like" para ajustar el criterio LIKE.
+
+sqlpedido
+Consulta los cambios de un pedido por su número en prebook_log.
+
+seletrade
+Consulta información principal de TRADE: número y tipo de documento, origen,
+integración, centro de costo, tipo de venta, fechas, cliente, cuenta, IVA,
+medio de pago y usuario que registró el movimiento.
+
+selemv
+Consulta el detalle completo de MVTRADE por número y tipo de documento.
+
+selecua
+Consulta los movimientos de pago o recaudo de MVCUADRE por documento y origen.
+
+selenu
+Consulta TRADE por número y tipo de documento con los campos NRODCTO,
+TIPODCTO y las demás columnas disponibles.
+
+jointrade
+Une TRADE con MVTRADE por NRODCTO y TIPODCTO. Sirve para ver juntos el
+encabezado del documento y su detalle.

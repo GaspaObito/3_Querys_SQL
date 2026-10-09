@@ -1,7 +1,7 @@
 ___
 ## Consecutivos:
 estos son los identificadores que se les dan
-![[Pasted image 20260915083945.png|697]]
+![[Pasted image 20260918114435.png]]
 para cuando no suban las facturas buscar ***visual fox pro***
 
 ````

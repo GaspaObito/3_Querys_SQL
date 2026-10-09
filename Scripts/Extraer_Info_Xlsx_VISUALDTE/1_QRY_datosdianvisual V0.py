@@ -1,24 +1,26 @@
 import os
 from io import StringIO
 from pathlib import Path
-from dotenv import load_dotenv #Ejecutar Env
-#py -m pip install lxml openpyxl
+from dotenv import load_dotenv
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
-
-driver = webdriver.Chrome()
-wait = WebDriverWait(driver, 30)
-
 try:
-    #Carga Datos Env
-    load_dotenv("Datos.env")
+    #"C:\Users\joseA\AppData\Local\Programs\Python\Python313\python.exe" -m pip install pywin32 python-dotenv pandas selenium lxml openpyxl
+    driver = webdriver.Chrome()
+    wait = WebDriverWait(driver, 90)
+    # Carpeta donde se encuentra datosdianvisual.py
+    CARPETA_SCRIPT = Path(__file__).resolve().parent
+
+    # Ruta completa de Datos.env
+    ARCHIVO_ENV = CARPETA_SCRIPT / "Datos.env"
+    
+    # Cargar las variables
+    load_dotenv(ARCHIVO_ENV, override=True)
     
     # Abrir el inicio de sesión
     driver.get("https://www.visualdte.com.co/login")
@@ -50,22 +52,12 @@ try:
     print("Inicio de sesión correcto:", driver.current_url)
 
     # Abrir la página de las facturas conservando la sesión
-
     driver.get("https://www.visualdte.com.co/facturasxrango")
 
     # Esperar y seleccionar el prefijo por el texto visible
     # Prefijos que deseas consultar
     PREFIJOS = [
-        "NC",
-        "ND",
-        "VR09",
-        "VR10",
-        "VR05",
-        "VR01",
-        "VR06",
-        "VR02",
-        "VR07",
-        "VR08",
+        "VR01","VR02","VR03","VR04","VR05","VR06","VR07","VR08","VR09","VR10","VR11","VR12","VR13","VR14","VR15","VR16","VR18","VR19","VR20","VR21","VR22","VR23"
     ]
 
     RANGO_INICIAL = 1
@@ -122,7 +114,7 @@ try:
 
         try:
             # Esperar a que el contenido de la tabla cambie
-            WebDriverWait(driver, 20).until(
+            WebDriverWait(driver, 90).until(
                 lambda navegador: navegador.find_element(
                     By.ID, "lventas"
                 ).get_attribute("innerHTML") != contenido_anterior
@@ -204,9 +196,20 @@ try:
                     "Folios faltantes": ", ".join(map(str, faltantes))
                 })
 
+                PUNTOS_VENTA = {
+                    "VR01": "FA25 + 25 + Sincelejo 6","VR02": "FA11 + 11 + Monteria","VR03": "FA16 + 16 + Cartago","VR05": "FA10 + 10 + Santa Marta",  "VR06": "FA06 + 24 + Sincelejo 1", 
+                    "VR07": "FA07 + 07 + Sincelejo 3","VR08": "FA08 + 08 + Sincelejo 4","VR09": "FA09 + 09 + Sincelejo 5",
+                    "VR10": "FA22 + 22 + MultiTelas","VR14": "FA14 + 14 + Cali Centro", "VR15": "FA20 + 20 + MultiFabric Cali", "VR16": "FA15 + 15 + Tulua","VR18": "FA02 + 02 + Nueva York",
+                    "VR19": "FA05 + 05 + Restrepo","VR20": "FA21 + 21 + Multifabrics", "VR21": "FA01 + 01 + Romelio", "VR22": "FA03 + 03 + Superganga","VR23": "FA04 + 04 + Carulla",
+                }
+
                 for folio in faltantes:
                     detalle_faltantes.append({
                         "Prefijo": prefijo,
+                        "CodigoOfima + TipoDcto + PuntoVenta": PUNTOS_VENTA.get(
+                            prefijo,
+                            "Sin asignar"
+                        ),
                         "Folio faltante": folio
                     })
 
@@ -234,5 +237,86 @@ try:
             print(f"Archivo guardado en: {archivo_salida}")
         else:
             print("Ningún prefijo devolvió información")
-finally:
+
+    # ENVIA CORREO LIBRERIA
+    import win32com.client as win32 #pywin32
+
+    # Evitar enviar miles de filas dentro del correo
+    MAX_FILAS_CORREO = 200
+
+    df_correo = df_detalle_faltantes.head(MAX_FILAS_CORREO)
+
+    tabla_html = df_correo.to_html(
+        index=False,
+        border=0,
+        justify="center",
+        na_rep=""
+    )
+
+    cuerpo_html = f"""
+    <html>
+    <head>
+    <style>
+        body {{
+            font-family: Arial, sans-serif;
+            font-size: 11pt;
+            color: #222222;
+        }}
+        table {{
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 9pt;
+        }}
+        th {{
+            background-color: #1F4E78;
+            color: white;
+            border: 1px solid #BFBFBF;
+            padding: 6px;
+            text-align: center;
+        }}
+        td {{
+            border: 1px solid #D9D9D9;
+            padding: 5px;
+        }}
+        tr:nth-child(even) {{
+            background-color: #F2F2F2;
+        }}
+    </style>
+    </head>
+    <body>
+        <p>Buenos días,</p>
+        <p>
+            Se genera reporte de DATA PUNTOS POS VERONA con cruce de DIAN encontrado: 
+            <strong>{len(df_final)}</strong> registros encontrando <strong>{len(df_correo)}</strong> facturas no ingresadas a la DIAN:
+        </p>
+
+        {tabla_html}
+
+        <p>Saludos.</p>
+    </body>
+    </html>
+    """
+
+    # Conectarse con Outlook
+    outlook = win32.Dispatch("Outlook.Application")
+
+    # 0 significa un nuevo correo
+    correo = outlook.CreateItem(0)
+
+    correo.To = "sistemas@colnotex.com"
+    correo.CC = ""
+    correo.Subject = "Reporte de facturas por prefijo VRN"
+
+    # Abrir el borrador para que Outlook cargue la firma
+    correo.Display()
+
+    # Conservar la firma de Outlook
+    firma = correo.HTMLBody
+    correo.HTMLBody = cuerpo_html + firma
+
+    # Adjuntar el Excel generado
+    correo.Attachments.Add(str(archivo_salida.resolve()))
+    # Enviar Correo
+    correo.Send()
+finally:    
     driver.quit()

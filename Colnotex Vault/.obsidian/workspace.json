@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9bd5ba77637f7990",
+        "id": "f011780c81c91b47",
         "type": "tabs",
         "children": [
           {
-            "id": "c24edf572dc4a90d",
+            "id": "a364c6572bf2ab86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Verona Colnotex.md",
+                "file": "Verona/Verona Colnotex.md",
                 "mode": "source",
                 "source": false
               },
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Querys.md",
+                "file": "Verona Colnotex.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Querys"
+              "title": "Enlaces entrantes de Verona Colnotex"
             }
           },
           {
@@ -183,12 +185,17 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "c24edf572dc4a90d",
+  "active": "a364c6572bf2ab86",
   "lastOpenFiles": [
-    "2026-09-15.md",
-    "Verona Colnotex.md",
-    "Sin título.canvas",
+    "Programador de Tareas.md",
+    "Verona/CheckList Manual Paso a Paso Verona.md",
+    "Verona/Verona Colnotex.md",
     "Querys.md",
+    "Angie Quintero Nomina.md",
+    "Verona",
+    "Sin título.canvas",
+    "Images/Pasted image 20260918114435.png",
+    "2026-09-15.md",
     "Images/Pasted image 20260915100643.png",
     "Pasted image 20260915083930.png",
     "Images/Pasted image 20260915083945.png",
